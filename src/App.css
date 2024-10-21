@@ -1,0 +1,156 @@
+nav {
+    background-color: #eeeee6; /* Navbar background color */
+    padding: 20px; /* Padding around the navbar */
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+
+}
+
+.navbar-links {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flex layout for links */
+}
+
+.navbar-links li {
+    position: relative; /* For dropdown positioning */
+    margin: 0 15px; /* Space between links */
+}
+
+.navbar-links a {
+    color: rgb(14, 13, 13); /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position it relative to the parent */
+    background-color: #fcfafa; /* Dropdown background color */
+    padding: 20px; /* Padding inside dropdown */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;/* Remove margin */
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-menu li {
+    margin: 5px 0; /* Space between dropdown items */
+}
+
+.search-form {
+    display: flex; /* Flexbox for search bar */
+}
+
+.search-form input {
+    padding: 5px; /* Padding inside input */
+    border: none; /* Remove border */
+    border-radius: 3px 0 0 3px; /* Rounded corners */
+}
+
+.search-form button {
+    padding: 5px 20px; /* Button padding */
+    background-color: #555; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 0 3px 3px 0; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-form button:hover {
+    background-color: #777; /* Change background on hover */
+}
+
+.card {
+    background-color: #fff; /* Card background color */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    max-width: 300px; /* Max width of the card */
+    margin: 20px; /* Margin around the card */
+    overflow: hidden; /* Prevent overflow */
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card-image {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-content {
+    padding: 15px; /* Padding inside the card */
+}
+
+.card-title {
+    font-size: 1.5em; /* Title font size */
+    margin: 0; /* Remove margin */
+}
+
+.card-description {
+    font-size: 1em; /* Description font size */
+    color: #555; /* Description text color */
+}
+
+.card-button {
+    display: inline-block; /* Inline block for button */
+    padding: 10px 15px; /* Button padding */
+    background-color: #3498db; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners for button */
+    margin-top: 10px; /* Space above the button */
+}
+
+.card-button:hover {
+    background-color: #2980b9; /* Button hover color */
+}
+
+
+footer {
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer-content {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Horizontal layout for links */
+}
+
+.footer-links li {
+    margin: 0 20px; /* Space between links */
+}
+
+.footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Hover effect */
+}
+
