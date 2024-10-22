@@ -10,7 +10,7 @@ function App() {
     <>
 <nav>
     <div class="navbar">
-        <a class="navbar-brand" href="#">world market view</a>
+        <a class="navbar-brand" href="wmv">world market view</a>
         <ul class="navbar-links">
             <li class="dropdown">
                 <a href="#">Invest</a>
@@ -48,6 +48,14 @@ function App() {
                     <li><a href="#">Complaint Status</a></li>
                     <li><a href="#">Sevi investor</a></li>
                     <li><a href="#">More</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">pricing disclousure</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">complaint status</a></li>
+                    <li><a href="#">sevi investor</a></li>
+                    <li><a href="#">more</a></li>
                 </ul>
             </li>
         </ul>
