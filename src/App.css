@@ -5,21 +5,23 @@ body{
 nav {
     background-color: #fffffe; /* Navbar background color */
     position: fixed; /* Navbar ko fixed position de raha hai */
- /* Top par rakhne ke liye */
     width: 100%; /* Poora width le raha hai */
     margin: 0;
     padding: 0;
-
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid #c4c5c4;
 
 }
 .login-button {
     margin-left: 300px;
     background-color: #fbfcfd; /* Blue color */
     padding: 10px 15px;
-    text-decoration: none;
+    height: 200px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #34a350;
-    color: red;
+    
 }
 .login-button:hover {
     background-color: #e8eee6; /* Darker blue on hover */
@@ -27,8 +29,8 @@ nav {
 .demat-button {
     background-color: #05b42e; /* Green color */
     padding: 10px 15px;
-    text-decoration: none; 
     border-radius: 20px 20px 20px 20px;
+    height: 45px;
 }
 .demat-button:hover {
     background-color: #218838; /* Darker green on hover */
@@ -40,9 +42,10 @@ nav {
     align-items: center; /* Center items vertically */
 }
 .navbar img{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     margin-left: 100px;
+    
 }
 
 .navbar-links {
@@ -50,6 +53,7 @@ nav {
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
     display: flex; /* Flex layout for links */
+    align-items: center;
 }
 
 .navbar-links li {
@@ -71,13 +75,19 @@ nav {
     margin: 0;/* Remove margin */
     width: 100%;
 }
+.dropdown img{
+    height: 45px;
+    width: 45px;
+    margin-right: 100px;
+    
+}
 
 .dropdown:hover .dropdown-menu {
     display: block; /* Show dropdown on hover */
 }
 
 .dropdown-menu li {
-    margin: 5px 0; /* Space between dropdown items */
+    margin: 05px 0; /* Space between dropdown items */
 }
 
 .search-form {
@@ -89,6 +99,7 @@ nav {
     border: none; /* Remove border */
     border-radius: 3px 0 0 3px; /* Rounded corners */
     background-color: rgb(246, 248, 242);
+    border-radius: 20px 20px 20px 20px;
 }
 
 .search-form button {
@@ -98,6 +109,9 @@ nav {
     border: none; /* Remove border */
     border-radius: 0 3px 3px 0; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 20px;
+    height: 45px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .search-form button:hover {
@@ -185,10 +199,9 @@ nav {
 footer {
     background-color: #2c2b2b; /* Background color */
     color: white; /* Text color */
-    padding: 20px 0; /* Vertical padding */
     text-align: center; /* Center text */
-    width: max;
-    height: max;
+
+   
 }
 .card1 a {
     color: rgb(252, 249, 249); /* Link color */
@@ -198,9 +211,9 @@ footer {
     display: flex; /* Flexbox layout */
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
-    padding: 0 20px; /* Horizontal padding */
     padding-left: 200px;
     padding-right: 200px;
+    
 }
 .card1 {
     color: #fafcfd;
@@ -223,4 +236,23 @@ footer {
  padding: 10px; /* Remove padding */
  display: flex; 
 }
-
+.card5 {
+    color: #fafcfd;
+    padding: 20px;
+    
+}
+.card5 :hover{
+    color: rgb(219, 217, 233);
+}
+.card5 a {
+    color: rgb(252, 249, 249); /* Link color */
+    text-decoration: none; /* Remove underline */
+    display: inline;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+.card5 img{
+    height: 30px;
+    width: 30px;
+}
